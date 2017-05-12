@@ -10,8 +10,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DataBaseHelper extends SQLiteOpenHelper {
     public static final String DATABASE_NAME = "contact.db";
     public static final String TABLE_NAME = "contact_table";
-    public static final String COL_1="id";
-    public static final String COL_2="name";
+    public static final String COL_1="ID";
+    public static final String COL_2="MAIN";
     public DataBaseHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
     }
