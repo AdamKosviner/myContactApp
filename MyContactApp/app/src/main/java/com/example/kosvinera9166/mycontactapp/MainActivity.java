@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     DataBaseHelper myDb;
     EditText editName;
+    //editname can be extendended
     Button btnAddData;
 
     @Override

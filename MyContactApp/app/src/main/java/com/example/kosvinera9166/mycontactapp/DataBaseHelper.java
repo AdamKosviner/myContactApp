@@ -36,6 +36,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         ContentValues contentValues = new ContentValues();
         contentValues.put(COL_2, name);
 
+
         long result =db.insert(TABLE_NAME,null,contentValues);
         if (result == -1) return false;
         else return true;
