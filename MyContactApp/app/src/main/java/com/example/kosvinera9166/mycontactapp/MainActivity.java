@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+//no
         myDb = new DataBaseHelper(this);
         editName=(EditText) findViewById(R.id.editText_name);
     }
@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
         //set up while loop with Cursor move to next method por favor
         //append each column to the buffer
         //use getString method
+        showMessage("Data", buffer.toString());
         showMessage("Data", buffer.toString());
     }
 
